@@ -1,0 +1,123 @@
+.contacts {
+  float: left;
+  width: 50%;
+  height: 300px;
+  text-align: center;
+}
+
+.contacts-line {
+  text-align: left;
+  width: 50%;
+  margin-left: 31%;
+  margin-right: 69%;
+}
+
+.languages {
+  float: right;
+  width: 50%;
+  height: 300px;
+  text-align: center;
+}
+
+.skills {
+  float: left;
+  width: 50%;
+  height: 300px;
+  text-align: center;
+}
+
+.hobbies {
+  float: right;
+  width: 50%;
+  height: 300px;
+  text-align: center;
+}
+
+.contacts-language {
+  padding-bottom: 0.5%;
+  height: 300px;
+}
+
+.skills-hobbies {
+  padding-bottom: 0.5%;
+  height: 300px;
+}
+
+.list {
+  text-align: center;
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 65%;
+}
+
+@media (max-width: 850px) {
+  .contacts,
+  .contacts-line,
+  .languages,
+  .skills,
+  .hobbies,
+  .contacts-language,
+  .skills-hobbies,
+  .list {
+    float: none;
+    width: auto;
+    height: auto;
+    margin: none;
+  }
+  
+  .contacts-line {
+    width: 100%;
+    margin-left: 32%;
+    margin-right: 68%;
+  }
+
+  .list {
+    margin-right: 30%;
+  }
+
+  .tel {
+    padding-right: 70%;
+  }
+
+  .mail,
+  .tel,
+  .skype {
+    float: left;
+  }
+}
+
+@media (max-width: 500px) {
+  .contacts,
+  .contacts-line,
+  .languages,
+  .skills,
+  .hobbies,
+  .contacts-language,
+  .skills-hobbies,
+  .list {
+    float: none;
+    width: auto;
+    height: auto;
+    margin: none;
+  }
+
+  .contacts-line {
+    width: 100%;
+    margin-left: 25%;
+    margin-right: 75%;
+  }
+
+  .list {
+    margin-right: 30%;
+  }
+
+  .tel {
+    padding-right: 50%;
+  }
+
+  .mail,
+  .tel,
+  .skype {
+    float: left;
+  }
+}
