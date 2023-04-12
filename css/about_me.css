@@ -2,35 +2,33 @@
   float: left;
   width: 50%;
   height: 300px;
-  text-align: center;
+  text-align: left;
 }
 
 .contacts-line {
   text-align: left;
   width: 50%;
-  margin-left: 31%;
-  margin-right: 69%;
 }
 
 .languages {
-  float: right;
+  float: left;
   width: 50%;
   height: 300px;
-  text-align: center;
+  text-align: left;
 }
 
 .skills {
   float: left;
   width: 50%;
   height: 300px;
-  text-align: center;
+  text-align: left;
 }
 
 .hobbies {
   float: right;
   width: 50%;
   height: 300px;
-  text-align: center;
+  text-align: left;
 }
 
 .contacts-language {
@@ -44,13 +42,26 @@
 }
 
 .list {
-  text-align: center;
+  text-align: left;
   width: 30%;
-  margin-left: 35%;
-  margin-right: 65%;
+  padding-left: 2.70%;
 }
 
 @media (max-width: 850px) {
+  .about-me {
+    text-align: center;
+  }
+
+  .contacts {
+    text-align: center;
+  }
+
+  .languages,
+  .skills,
+  .hobbies {
+    text-align: center;
+  }
+
   .contacts,
   .contacts-line,
   .languages,
@@ -67,12 +78,11 @@
   
   .contacts-line {
     width: 100%;
-    margin-left: 32%;
-    margin-right: 68%;
+    padding-left: 34.60%;
   }
 
   .list {
-    margin-right: 30%;
+    padding-left: 36.60%;
   }
 
   .tel {
@@ -103,12 +113,11 @@
 
   .contacts-line {
     width: 100%;
-    margin-left: 25%;
-    margin-right: 75%;
+    padding-left: 28.60%;
   }
 
   .list {
-    margin-right: 30%;
+    padding-left: 32.60%;
   }
 
   .tel {
